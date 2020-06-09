@@ -1,0 +1,11 @@
+{% extends 'index.html' %}
+{% block title %}Todo | Details{% endblock %}
+
+
+{% block content %}
+{% include 'header.html' %}
+<h3>{{todo.title}}: {{todo.content}}</h3>
+<i>created on {{todo.created}}</i>
+
+<a href="{% url 'home' %}" style="display: block;text-decoration:none;">Go back</a>
+{% endblock %}
