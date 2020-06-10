@@ -25,11 +25,7 @@ SECRET_KEY = 'pui2#=!v4gekj#r%)+!m25^0@(z9tuvy7+_a)7i+ajx*pt^ils'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-<<<<<<< HEAD
-ALLOWED_HOSTS = ['yourtodo-app.herokuapp.com', 'localhost', '127.0.0.1' ]
-=======
 ALLOWED_HOSTS = ['yourtodo-app.herokuapp.com', '127.0.0.1', 'localhost']
->>>>>>> app
 
 
 # Application definition
