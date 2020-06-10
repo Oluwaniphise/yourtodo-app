@@ -21,7 +21,7 @@ def addTodo(request):
         content = request.POST['content']
         todo = Todo(title=title, content=content)
         todo.save()
-        return HttpResponseRedirect('/todolist/') 
+        return HttpResponseRedirect('/') 
         
     else:
         return HttpResponse("Make sure you are sending a post request")
@@ -30,6 +30,6 @@ def addTodo(request):
 def deleteTodo(request, todo_id):
     item_to_delete = Todo.objects.get(id=todo_id)
     item_to_delete.delete()
-    return HttpResponseRedirect("/todolist/")
+    return HttpResponseRedirect("/")
   
 
