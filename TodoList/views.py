@@ -30,6 +30,6 @@ def addTodo(request):
 def deleteTodo(request, todo_id):
     item_to_delete = Todo.objects.get(id=todo_id)
     item_to_delete.delete()
-    return HttpResponseRedirect("/")
+    return HttpResponseRedirect('/')
   
 
