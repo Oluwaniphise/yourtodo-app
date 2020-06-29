@@ -1,4 +1,4 @@
 # yourtodo-app
 
 This is a simple to do app created with Django.
-Check it out at: https://www.yourtodo-app.herokuapp.com
+Check it out at http://yourtodo-app.herokuapp.com/
